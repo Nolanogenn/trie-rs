@@ -1,6 +1,9 @@
 [package]
-name = "trie-rs"
+name = "trieRS"
 version = "0.1.0"
 edition = "2021"
+
+[build]
+rustflags = ["-Anon_snake_case"]
 
 [dependencies]
